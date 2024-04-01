@@ -30,5 +30,5 @@ Config.Logging = {
     F_WebhookColor = "16711680", -- Color of the failed embed.
     FooterIcon = "https://cdn.discordapp.com/icons/1066225230479101972/88ffeb74a180ed40f5d49278259cbb8e.png?size=2048&format=webp&quality=lossless&width=0&height=320", -- Footer Icon
     
-    WebhookLink = "https://discord.com/api/webhooks/1203315295104540692/BmbR8afaUHu43K_n7qhQw7a-imMgGBHIJIBA3zb5TUcCdY93vwV_R4PCQpBJUGpmoMBt" -- Link to send to discord.
+    WebhookLink = "https://discord.com/api/webhooks/" -- Link to send to discord.
 }
