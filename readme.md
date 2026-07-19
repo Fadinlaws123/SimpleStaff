@@ -1,29 +1,102 @@
-# SimpleStaff
+<div align="center">
 
-### Version 1.0.0
+# 🛡️ SimpleStaff
 
-## About SimpleStaff:
+### A private ACE-restricted staff chat system with optional Discord logging for FiveM.
 
-1. _SimpleStaff allows for staff in the server to talk to one another without other people being able to see their messages. This allows for your staff to plan / communicate in private and not have the intrusion of other members in the server._
+<p>
+  <a href="https://simpledevelopments.org/store"><img src="https://img.shields.io/badge/Explore_Our_Store-5865F2?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>
+  <a href="https://discord.gg/RquDVTfDwu"><img src="https://img.shields.io/badge/Join_Our_Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" /></a>
+  <a href="https://github.com/Fadinlaws123/SimpleStaff"><img src="https://img.shields.io/badge/View_on_GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
+</p>
 
-2. _SimpleStaff comes with the ability for logging within the server to keep track of people that talk in staffchat all together._
+<p>
+  <img src="https://img.shields.io/badge/FiveM-Standalone-FF6B35?style=flat-square&logo=fivem&logoColor=white" />
+  <img src="https://img.shields.io/badge/Permissions-ACE-238636?style=flat-square" />
+  <img src="https://img.shields.io/badge/Status-Release_Ready-238636?style=flat-square" />
+  <img src="https://img.shields.io/github/stars/Fadinlaws123/SimpleStaff?style=flat-square&logo=github&label=Stars" />
+</p>
 
-## Configuration:
+</div>
 
-1. Logging:
+---
 
-   - SimpleStaff comes with a logging system built into the script, you can configure the options that are listed below in the config.lua.
+## 📖 About
 
-   1. Webhook Name: _You can change the name of the webhook that appears in discord._
-   2. Webhook PFP: _You can change the profile picture of the webhook._
-   3. Successful Color: _You can change the color of the Success webhook._ (Use: [This](https://www.mathsisfun.com/hexadecimal-decimal-colors.html))
-   4. Failure Color: _You can change the color of the Success webhook._ (Use: [This](https://www.mathsisfun.com/hexadecimal-decimal-colors.html))
-   5. Footer Icon: _You can change the icon that appears for the footer message in the embed._
-   6. Webhook Link: _You can change the URL of where the embed is sent to._
+**SimpleStaff** provides an in-game private communication channel for authorized staff members.
 
-2. Usage of Ace Permissions:
-   - You can change the permission required for the script in the config.lua. By default the script uses `simple.staff` but you can change this to be whatever you want!
+Messages are restricted through ACE permissions so regular players cannot view staff conversations, and optional Discord logging can be configured to keep a record of staff-chat activity.
 
-## Notice:
+---
 
-- More settings for this script will come in the future, for instance, usage of NAT2K15's framework and NDCore. Until then, it'll stick with ace permission usage.
+## ✨ Features
+
+- Private staff-only chat
+- ACE permission access control
+- Configurable permission string
+- Discord webhook logging
+- Configurable webhook name and image
+- Configurable embed colors and footer appearance
+- Standalone with no framework dependency
+
+---
+
+## 🔐 Permissions
+
+The default ACE permission is:
+
+```text
+simple.staff
+```
+
+Grant it to the appropriate group in your `server.cfg`.
+
+Example:
+
+```cfg
+add_ace group.staff simple.staff allow
+```
+
+---
+
+## ⚙️ Configuration
+
+The resource configuration includes:
+
+- Staff permission string
+- Discord logging webhook
+- Webhook name
+- Webhook profile image
+- Embed colors
+- Footer appearance
+
+Keep live webhook URLs private and never commit them to a public repository.
+
+---
+
+## 📥 Installation
+
+1. Place `SimpleStaff` in your server's resources directory.
+2. Configure the resource.
+3. Add the resource to your `server.cfg`.
+4. Grant the required ACE permission to your staff group.
+5. Restart the resource or server.
+
+---
+
+## 📋 Requirements
+
+- FiveM server
+- No framework required
+
+---
+
+## 🌐 SimpleDevelopments
+
+SimpleStaff is developed and maintained by **SimpleDevelopments**.
+
+<div align="center">
+
+### Keep it Simple. Keep it SimpleDevelopments.
+
+</div>
